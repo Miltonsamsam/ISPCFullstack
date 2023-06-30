@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: gadugi;
+}
+@font-face{
+  font-family: gadugi;
+  src: url(gadugi-normal.ttf);
+}
+body{
+  background-color:#2d2e2f;
+  color: white ;
+}
+
+/* sombras Form */
+.custom-shadow{
+  border-radius: 50px;
+  background: #2d2e2f;
+  box-shadow:  20px 20px 30px #262728,
+               -20px -20px 30px #343536;
+}
+
+/* imagen de fondo */
+.col-bg--custom{
+  background:linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(../Assets/img/imagen04.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:unset;
+  
+}
+.col-bg--custom__Account{
+  background:linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(../Assets/img/imagen0402.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+
+
+
+

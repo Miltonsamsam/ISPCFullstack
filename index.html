@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="frontend/Styles/style.css"/>
+  <link rel="stylesheet" href="frontend/Styles/nav1.css" />
+  <link rel="stylesheet" href="frontend/Styles/foot.css" />
+  <link rel="stylesheet" href="frontend/Styles/style-form.css" />
+  <link rel="stylesheet" href="frontend/Styles/herobanner.css" />
+  <link rel="stylesheet" href="frontend/Styles/Formlogin.css" />
+  <link rel="stylesheet" href="frontend/Styles/collage.css" />
+  <link rel="icon" href="frontend/Assets/img/logoMountainBlanco.png">
+
+  <title>PRoA Sede Arroyito</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="frontend/Assets/img/Logotipo/Logotipo_proa_sede_arroyito_formato_png.png" alt="logo de PRoA Arroyito en Png" class="logo-img" />
+    </a>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+      &#8801
+    </label>
+
+    <nav class="navbar">
+      <a href="index.html" class="nav-menu-item nav-link">Home</a>
+      <a href="frontend/View/nosotros.html" class="nav-menu-item nav-link">Nosotros</a>
+      <a href="frontend/View/Asesoramiento.html" class="nav-menu-item nav-link">Recorridos</a>
+      <a href="frontend/View/blog.html" class="nav-menu-item nav-link">Blog</a>
+      <a href="frontend/View/loginPage.html" class="nav-menu-item nav-link">Iniciar sesión</a>
+      <a href="https://www.cba.gov.ar/escuelas-proa/">¿Que es PRoA?</a>
+      <label for="check" class="esconder-menu">
+        &#215
+      </label>
+    </nav>
+
+
+  </header>
+  <main>
+    <!--section hero-->
+
+    <section class="hero container-fluid">
+        <div class="overlay">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 ">
+                <h2>
+                  Escuela PRoA Sede Arroyito <br> <span class="title-hero">Explora la programación con nosotros</span>
+                </h2>
+                <P class="d-none d-md-block">
+                  ¿Queres anotarte para el proximo ciclo lectivo? <br>
+                  Te invitamos a que completes los datos para ser parte de la familia PRoA Arroyito 
+                </P>
+                <a class="btn btn-primary " href="frontend/View/newAccount.html" role="button"> ¿Queres ser estudiante PRoA?</a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!--Section cards-trayectos-->
+
+    <p class="reseña">
+     La escuela PROA ARROYITO tiene como objetivo la formación en tecnologías de la información y comunicación con el título en bachiller en desarrollo de software.
+    </p>
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="title_hikeTheMountain">Abanderados y Escoltas 2023</h2>
+        </div>
+      </div>
+      <div class="row mb-5">
+          <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <div class="card shadow ">
+              <img src="frontend/Assets/img/img_nosotros/bandera de argentina.jpg" class="card-img-top " alt="Los Gigantes" />
+              <div class="card-body">
+                <h5 class="card-title">Bandera Argentina </h5>
+                <p class="card-text">
+                <ul>
+                <li>Abanderado: Milton M. Sam Sam</li>
+                <li>Primer Escolta: Valentina Cabrera</li>
+                <li>Segundo Escolta: Josefina Nicola</li>
+                <li>Suplente: Celeste DL. Guipponi</li> 
+              </ul>
+                </p>
+                <a href="https://www.instagram.com/p/CqcqPRKumyC/" class="btn btn_1">Ver Nota</a> <!--Estudiantes lo tienen que eliminar -->
+              </div>
+            </div>
+          </div>
+          
+          <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <div class="card shadow">
+              <img src="frontend/Assets/img/img_nosotros/bandera de cordoba.jpg" class="card-img-top" alt="Los Terrones"/>
+              <div class="card-body">
+                <h5 class="card-title">Bandera de Córdoba</h5>
+                <p class="card-text">
+                  <ul>
+                 <li>Abanderado: Candela A. Sosa</li> 
+                 <li>Primer Escolta: Santino L. Sayago</li>
+                 <li>Segundo Escolta: Tomas R. Varela</li>
+                 <li>Suplente: Celeste DL. Guipponi</li> 
+                  </ul>
+                </p>
+                <a href="https://www.instagram.com/p/CqcqZQVO33g/" class="btn_1 btn">Ver Nota</a>
+              </div>
+            </div>
+          </div> 
+          <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <div class="card shadow">
+              <img src="frontend/Assets/img/img_nosotros/bandera de arroyito.jpg" class="card-img-top" alt="Champaquí" />
+              <div class="card-body">
+                <h5 class="card-title">Bandera de Arroyito</h5>
+                <p class="card-text">
+                <ul>
+                <li>Abanderado: Valentina Cesar</li>
+                <li>Primer Escolta: Jeremias Ludueña</li>
+                <li>Segundo Escolta: Tiziana Suarez</li>
+                <li>Suplente: Tomás Toledo</li>
+                </ul>
+                </p>
+                <a href="https://www.instagram.com/p/CqcqgiiOMDL/" class="btn btn_1">Ver Nota</a>
+              </div>
+            </div>
+          </div>
+    </div>
+        
+    <!--/Section cards-trayectos-->
+
+    <!--Section Reseñas-Testimonios-->
+
+    <section class="resena mb-5">
+      <h1>Reseñas </h1>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <div class="imagen_custom">
+              <img src="frontend/Assets/img/avatar02.png" class="d-block w-100" alt="banner1" />
+            </div>
+            <div class="carousel-caption d-block d-md-block">
+              <h5>Persona 1</h5>
+              <p>Muy buena Experiencia</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagen_custom">
+              <img src="frontend/Assets/img/avatar03.png" class="d-block w-100" alt="banner2" />
+            </div>
+            <div class="carousel-caption d-block d-md-block">
+              <h5>Persona 2</h5>
+              <p>Excelente Iniciativa</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagen_custom">
+              <img src="frontend/Assets/img/avatar01.png" class="d-block w-100" alt="banner3" />
+            </div>
+            <div class="carousel-caption d-block d-md-block">
+              <h5>Abel y María</h5>
+              <p>Rosario</p>
+              <p>23 y 26 años</p>
+              <p>
+                Hermosa experiencia para disfrutar con los estudiantes. Los
+                recomendamos.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagen_custom">
+              <img src="frontend/Assets/img/avatar02.png" class="d-block w-100" alt="banner 4" />
+            </div>
+            <div class="carousel-caption d-block d-md-block">
+              <h5>Gonzalo Sanchez</h5>
+              <p>Córdoba</p>
+              <p>27 años</p>
+              <p>Champaquí</p>
+              <p>
+                Me encantó, me tocó un grupo súper divertido y amigable, una
+                experiencia para vivirla y disfrutarla.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagen_custom">
+              <img src="frontend/Assets/img/avatar03.png" class="d-block w-100" alt="banner 5" />
+            </div>
+            <div class="carousel-caption d-block d-md-block">
+              <h5>Lorena Estevez</h5>
+              <p>La Rioja</p>
+              <p>20 años</p>
+              <p>Los Terrones</p>
+              <p>
+                Me encantaría que agreguen recorridos de mi provincia, es un
+                lugar inolvidable, hermoso los descansos están muy bien
+                ubicados, muy conforme con el recorrido.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagen_custom">
+              <h2>Papas </h2>
+              <img src="frontend/Assets/img/avatar01.png" class="d-block w-100" alt="banner 6" />
+            </div>
+            <div class="carousel-caption d-block d-md-block">
+              <h5>Marcos y Mariela</h5>
+              <p>Córdoba</p>
+              <p>30 y 35 años</p>
+              <p>
+                Nos gustó mucho el recorrido de nuestros hijos por la institucion. Gracias!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--/Section Reseñas-->
+
+    <!--Section fotos de viajes-->
+    
+    <div class="collage ">
+      <div> <img src="frontend/Assets/img/imagen06.jpg" class="collage1" alt="">
+      </div>
+      <div> <img src="frontend/Assets/img/imagen08.jpg" class="collage3" alt="">
+      </div>
+      <div> <img src="frontend/Assets/img/imagen10.jpg" class="collage2" alt="">
+      </div>
+    </div> 
+    <!--/Section fotos de viajes-->
+
+    <!--Formulario de Subscripcion-->
+    <div class="container mt-5 rounded custom-shadow">
+      <div class="row align-items-stretch">
+        <div class="col-bg---custom col-xl-6 col-md-5  rounded">
+
+        </div>
+
+        <div class=" col-xl-6  col col-md-7 col-sm-12 p-4 rounded-end mb-5">
+          <h4 class="text-center py-5">No te pierdas las novedades de PRoA Sede Arroyito</h4>
+          <form class="needs-validation"novalidate>
+            <div class="mb-3">
+              <label for="exampleInputNombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control custom-input" id="exampleInputNombre"placeholder="ingrese su nombre"required/>
+              <div class="invalid-feedback">
+                debe ingresar un nombre
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputApellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control custom-input" id="exampleInputApellido"placeholder="ingrese su apellido"
+                required/>
+                <div class="invalid-feedback">
+                  debe ingresar su apellido
+                </div>
+            </div>
+
+            <div class="mb-3 mb-5">
+              <label for="exampleInputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control custom-input" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="email@dominio.com" required />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox"  id="terms" required/>
+                <label class="form-check-label mb-3" for="terms">
+                  Acepta los términos y condiciones
+                </label>
+                <div class="valid-feedback">
+                  Debe estar de acuerdo antes de enviar.
+                </div>
+              </div>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Suscribite
+              </button>
+              <legend class="text-center mt-3">Para recibir novedades</legend>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- /Formulario de Subscripcion-->
+  </main>
+
+  <!--footer-->
+  <footer class="container-foot">
+      <div class="mountain">
+        <img id="logmountain" src="frontend/Assets/img/logoMountainBlanco.png" alt="logoMHblanco" width="60px" />
+        <h2 class="foot-mountain"> 
+          PRoA Sede Arroyito
+        </h2>
+        <p class="descripcion-foot">
+          <li>Escuela ProA</li>
+          <li>Especialidad Desarrollo de Software 👩‍💻👨‍💻</li>
+          <li>Desde 2019/ Sede Arroyito</li>
+          <li>Dirección General de Educación Técnica y Profesional. Zona X</li>
+        </p>
+      </div>
+      <div class="contact">
+       <h2 class="foot-contacto">CONTACTO</h2>
+       <ul class="lista-contacto">
+          <li>
+            <img id="logdireccion" src="frontend/Assets/img/icono-direccion.png" alt="logoDireccion" />
+          Arroyito, Córdoba, Argentina
+          </li>
+          <li>
+           <img id="logmail" src="frontend/Assets/img/icono-Mail.png" alt="logoMail" />
+          arroyitods@escuelasproa.edu.ar
+         </li>
+         <li>
+           <img id="logtelefono" src="frontend/Assets/img/icono-phone.png" alt="logoTelefono" width="40px" />
+          3514 56 6566
+         </li>
+          <li>
+            <img id="logwathsapp" src="frontend/Assets/img/icono-whatsapp.png" alt="logoWhatsapp" />
+          +54 3514566665
+          </li>
+       </ul>
+     </div>
+      <div class="seguinos">
+        <h2 class="foot-seguinos">SEGUINOS</h2>
+        <div class="seguinos-elements">
+          <a href="https://www.facebook.com"><img id="logfacebook" src="frontend/Assets/img/redes-facebook.png"
+          alt="logoFacebook" width="60px" /></a>
+       <a href="https://www.instagram.com/proaarroyito/"><img id="loginstagram" src="frontend/Assets/img/redes-instagram.png"
+          alt="logoInstagram" width="60px" /></a>
+
+       </div>
+      </div>
+    <div class="rights">
+      <h3 class="derechos-foot">Quinto Año Promo 2024 • Todos los Derechos Reservados •</h3>
+      <a href="http://"target="_blank" class="text-decoration-none"><img id="logdisenando" src="frontend/Assets/img/logoDiseñandoSinFronteras.png" alt="logodelDiseñador"
+          width="50px" /><span class="badge bg-secondary"> Página creada por los estudiantes de quinto año </span ></a>
+     </div>
+    </footer>
+    <!--/footer-->
+
+  <!--boostrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="frontend/JS/validacionFormulario.js"></script>
+</body>
+<img src="" alt="">
+
+</html>

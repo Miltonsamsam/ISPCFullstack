@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gadugi;
+  }
+  @font-face{
+    font-family: gadugi;
+    src: url(gadugi-normal.ttf);
+  }
+  body{
+    background-color:#2d2e2f;
+    color: white ;
+  }
+
+  .col-bg---custom{
+    background-image: url(../Assets/img/imagen05.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .custom-input{
+    background: inherit;
+    color: white;
+
+  }
+ 
+  .btn-custom{
+    background-color: aliceblue;
+    color: rgb(15, 159, 243);
+    font-weight: bold;
+  }
+
+  .alert-gradient{
+		background: linear-gradient(to top right, #e66465, #9198e5);
+		border-radius:0px;
+		border:none;
+		color:#fff;
+	}
+	.alert-heading-gradient{
+		color:#fff;
+		font-weight:900;
+	}
+
+  .modal-content{
+    background-color: #2d2e2f;
+    color:#fff
+  }
+
+  .btn-secondary{
+    background-color: #2d2e2f;
+  }
+  

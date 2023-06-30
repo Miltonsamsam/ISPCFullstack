@@ -1,0 +1,73 @@
+  
+body{
+        background-color: #2d2e2f;
+        color: aliceblue;
+ } 
+   
+
+h2{
+    margin-left: 50px;
+    padding: 10px;
+}
+.btn_01{
+    background-color: #9ba08b;
+    color: aliceblue;
+    font-size: 18px;
+    font-style: strong;
+}
+.gigantes01{
+    display: flex;
+    margin:  20px 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+.titulo{
+    margin-left: 50px;
+    font-size: 35px;
+    text-shadow: 2px 1px #98ca3e;
+}
+.texto{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.dif{
+    display: flexbox;
+    background-color: rgba(90, 90,90, 0.6);
+}
+.dificultad{
+    color: #98ca3e;
+    margin: 20px 20px 20px 50px;
+    font-size: 20px;
+}
+.max{
+    height:100px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.etiqueta_clima{
+    margin-left: 50%;
+    margin-top: 20px;
+    
+}
+.link{
+    text-decoration: none;
+}
+
+h4{
+    margin-left: 50px;
+    font-size: 20px;
+    text-shadow: 2px 1px #98ca3e;
+    
+ }
+.recorrido{
+    display: flex;
+    margin:  20px 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
